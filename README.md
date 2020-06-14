@@ -13,10 +13,6 @@ choco pack
 # To install the package locally
 choco install choco-windump -s .
 
-# To install from Chocolatey repo
-choco install choco-windump
-
 # To remove the package
 choco uninstall choco-windump
 ```
-
