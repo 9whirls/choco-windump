@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>Choco-WinDump</id>
+    <version>1.0</version>
+    <title>WinDump (Install)</title>
+    <authors>whirls9@hotmail.com</authors>
+    <projectUrl>https://github.com/9whirls/choco-windump</projectUrl>
+    <tags>windump winpcap</tags>
+    <summary>Install WinDump and WinPcap</summary>
+    <description>Install WinDump and WinPcap on Vista+ 64bit Windows OS</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+	<file src="files\**" target="files" />
+  </files>
+</package>
