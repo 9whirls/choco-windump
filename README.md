@@ -10,8 +10,11 @@ This project is to address those issues by adopting Chocolatey. Please note that
 # To build the package
 choco pack
 
-# To install the package locally
+# To install the package locally, download the source code and then run
 choco install choco-windump -s .
+
+# To install the package from Chocolatey repository, simply run
+choco install choco-windump --version 1.0
 
 # To remove the package
 choco uninstall choco-windump
